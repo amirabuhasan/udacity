@@ -2,7 +2,7 @@ import media
 import fresh_tomatoes
 
 boyhood = media.Movie("Boyhood",
-                        "depicts the childhood and adolescence of Mason Evans Jr. from ages six to eighteen as he grows up in Texas with divorced parents" ,
+                        "Depicts the childhood and adolescence of Mason Evans Jr. from ages six to eighteen as he grows up in Texas with divorced parents" ,
                         "https://upload.wikimedia.org/wikipedia/en/b/bb/Boyhood_film.jpg",
                         "https://www.youtube.com/watch?v=Ys-mbHXyWX4")
 
@@ -45,7 +45,17 @@ the_breakfast_club = media.Movie("The Breakfast Club",
                     "https://upload.wikimedia.org/wikipedia/en/5/50/The_Breakfast_Club.jpg",
                     "https://www.youtube.com/watch?v=BSXBvor47Zs")
 
-movies = [boyhood, guardians_of_the_galaxy, birdman, before_sunset, anywhere_but_here, beginners, the_breakfast_club]
+the_truman_show = media.Movie("The Truman Show",
+                    "An insurance salesman/adjuster discovers his entire life is actually a television show." ,
+                    "https://upload.wikimedia.org/wikipedia/en/c/cd/Trumanshow.jpg",
+                    "https://www.youtube.com/watch?v=loTIzXAS7v4")
+
+inside_llewyn_davis = media.Movie("Inside Llewyn Davis",
+                    "A week in the life of a young singer as he navigates the Greenwich Village folk scene of 1961." ,
+                    "https://upload.wikimedia.org/wikipedia/en/d/df/Inside_Llewyn_Davis_Poster.jpg",
+                    "https://www.youtube.com/watch?v=LFphYRyH7wc")
+
+movies = [boyhood, guardians_of_the_galaxy, birdman, before_sunset, anywhere_but_here, beginners, the_breakfast_club, the_truman_show, inside_llewyn_davis]
 
 
 fresh_tomatoes.open_movies_page(movies)
